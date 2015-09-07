@@ -11,17 +11,16 @@
 //  getColor();             -- returns the color of Rudy's square
 //  setColor(color);        -- changes the color of Rudy's square, opens gates if colors match
 
-
 right();
 down();
 for (var count=0; count < 6; count++){
   down();
 }
-right();
+
 for (var count=0; count < 4; count++){
   right();
 }
-left();
+
 up();
 up();
 right();
