@@ -1,4 +1,3 @@
-
 function goDown(total) {
   var count = 0;
   while (count < total) {
