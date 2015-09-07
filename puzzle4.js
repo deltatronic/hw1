@@ -1,12 +1,12 @@
 
-function tabDown(total) {
+function goDown(total) {
   var count = 0;
   while (count < total) {
     down();
     count = count + 1;
   }
 }
-tabDown(4);
+goDown(4);
 right();
 var oddsquare = getColor();
 getColor();
